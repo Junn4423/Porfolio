@@ -48,7 +48,6 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
-          suppressHydrationWarning
         >
           <CustomCursor />
           <SourceProtection />
