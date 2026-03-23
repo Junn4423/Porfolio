@@ -2,22 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #064e3b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022c22;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #065f46;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #064e3b #f5f5f5;
+}
+
+.dark * {
+  scrollbar-color: #065f46 #171717;
+}
+
+/* ===== Hide Google Translate Toolbar ===== */
+.goog-te-banner-frame,
+.goog-te-balloon-frame {
+  display: none !important;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  top: 0 !important;
+}
+
+.skiptranslate {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+}
+
+/* ===== Custom cursor (hide default on desktop) ===== */
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+  a, button, [role="button"], input[type="submit"], select,
+  .cursor-pointer {
+    cursor: none !important;
+  }
+}
+
+/* ===== Theme transition ===== */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.5s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* ===== Text selection ===== */
+::selection {
+  background: #064e3b;
+  color: #ecfdf5;
+}
+
+/* ===== Smooth scroll ===== */
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

@@ -1,0 +1,263 @@
+{
+  "personal": {
+    "name": "Luong Ngoc Chung",
+    "nickname": "Chung",
+    "label": "Full Stack Developer",
+    "email": "chungluong4423@gmail.com",
+    "phone": "+84707038113",
+    "website": "ngocchung.dev",
+    "image": "https://res.cloudinary.com/dky6wyvnm/image/upload/v1766134690/self_j26wxo.jpg",
+    "summary": "High-performing Full Stack Developer with a proven track record of architecting robust backend systems using PHP and Node.js. Versatile in engineering seamless UI/UX experiences across multiple environments, including Web (React), Mobile (React Native), and Desktop (Electron). Proficient in Python for both backend development and Machine Learning model training. Expert at bridging the gap between hardware and software through IoT and AI integration, delivering innovative, end-to-end technical solutions.",
+    "location": "Ho Chi Minh City, Vietnam",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/junloun/",
+      "github": "https://github.com/Junn4423/"
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "slug": "sof-parking",
+      "title": "SOF Smart Parking Management System",
+      "description": "This project is a comprehensive parking management ecosystem designed to streamline operations and fortify security through a sophisticated blend of software and hardware integration. Built on an API-first architecture, the system ensures seamless communication between the core processing engine and various user interfaces. The desktop application, developed with Electron, delivers high-performance stability across Windows, macOS, and Linux. Complementing this, the React Native mobile suite provides a versatile experience on iOS and Android, while also being deeply optimized for handheld mini POS devices to support on-the-spot thermal bill printing. The technical core of the system leverages AI-driven models for automated License Plate Recognition (LPR) and facial matching, integrated with RTSP camera streams for real-time surveillance and IoT modules for automated barrier control.",
+      "features": [
+        "AI-driven License Plate Recognition (LPR) with real-time RTSP camera integration",
+        "Cross-platform desktop app via Electron (Windows, macOS, Linux)",
+        "React Native mobile suite optimized for handheld POS devices",
+        "IoT-controlled automated barrier gates",
+        "Real-time surveillance and facial matching",
+        "Thermal bill printing for on-the-spot transactions",
+        "ERP synchronization for enterprise data management",
+        "Multi-user role-based access control"
+      ],
+      "achievements": [
+        "Achieved a near-perfect graduation thesis score of 9.8/10",
+        "Successfully integrated and tested on specialized handheld POS hardware",
+        "Earned high praise from large-scale enterprises during live demonstrations",
+        "Proven deployment with stable real-world performance"
+      ],
+      "techStack": [
+        "React",
+        "React Native",
+        "Electron",
+        "Node.js",
+        "Python",
+        "TensorFlow",
+        "IoT",
+        "RTSP",
+        "MySQL"
+      ],
+      "liveUrl": "https://ngocchung.dev/project/Parkinglot-Management",
+      "videoUrl": "https://www.youtube.com/watch?v=QjRX9OY1gCc"
+    },
+    {
+      "id": 2,
+      "slug": "pos-system",
+      "title": "Multi-platform POS & Retail Management Solution",
+      "description": "A modern, all-in-one Point of Sale (POS) ecosystem tailored specifically for the F&B and retail sectors, offering unparalleled flexibility across diverse hardware environments. Engineered with a powerful ERP backend, the system enables real-time synchronization of inventory, sales data, and complex business workflows. The frontend, architected using React Electron and React Native, provides a unified and fluid user experience across desktop workstations, specialized dual-screen POS registers, tablets, and smartphones. Beyond standard transaction processing, the solution addresses the modern needs of digital commerce by integrating deep support for electronic invoicing (e-invoice) and leading digital payment gateways such as Momo, VNPay, and ZaloPay.",
+      "features": [
+        "Universal cross-platform compatibility (Desktop, Tablet, Mobile, POS terminals)",
+        "Real-time inventory and sales synchronization via ERP backend",
+        "Dual-screen POS register support for enhanced checkout experience",
+        "Electronic invoicing (e-invoice) with full compliance",
+        "Integrated digital payment gateways (Momo, VNPay, ZaloPay)",
+        "Thermal receipt printing support",
+        "Advanced sales analytics and reporting dashboard",
+        "Multi-store management capability"
+      ],
+      "achievements": [
+        "Demonstrated flawless stability across all major operating systems and specialized retail hardware",
+        "Streamlined checkout process ensuring high-speed transactions during peak hours",
+        "Successfully implemented end-to-end e-invoice synchronization",
+        "Native support for the most popular cashless payment methods in Vietnam"
+      ],
+      "techStack": [
+        "React",
+        "React Native",
+        "Electron",
+        "Node.js",
+        "PHP",
+        "MySQL",
+        "Socket.io",
+        "REST API"
+      ],
+      "liveUrl": "https://ngocchung.dev/project/Sales-Management",
+      "videoUrl": "https://www.youtube.com/watch?v=lXfgaE_ocnQ"
+    },
+    {
+      "id": 3,
+      "slug": "landing-page-collection",
+      "title": "Modern Web & UI/UX Landing Page Collection",
+      "description": "A curated selection of high-performance, visually stunning landing pages designed to meet diverse industry needs. Each project is architected with a focus on SEO optimization, Core Web Vitals, and an immersive user experience. Leveraging the power of React and Next.js, these pages implement advanced frontend techniques including Tailwind CSS for rapid, responsive styling and SCSS/CSS3 for custom, intricate layouts. Framer Motion provides fluid, state-based animations and Three.js introduces interactive 3D elements, ensuring each site stands out in the digital landscape. Projects range from live production environments for established brands to high-fidelity showcases for sectors like Logistics, Education, and Industrial construction.",
+      "features": [
+        "SEO-optimized architecture with semantic HTML and meta management",
+        "Core Web Vitals optimized for peak performance scores",
+        "Responsive design with mobile-first approach using Tailwind CSS",
+        "Fluid animations powered by Framer Motion",
+        "Interactive 3D elements using Three.js",
+        "Custom SCSS/CSS3 layouts for unique visual identities",
+        "Multi-industry coverage: Logistics, Education, Beauty, Gaming, and more",
+        "Production-ready deployment on Vercel"
+      ],
+      "achievements": [
+        "Successfully deployed multiple production websites for real businesses",
+        "Achieved high Lighthouse scores across all projects",
+        "Delivered pixel-perfect designs matching client specifications",
+        "Built reusable component libraries accelerating future development"
+      ],
+      "techStack": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "SCSS",
+        "Framer Motion",
+        "Three.js",
+        "TypeScript",
+        "Vercel"
+      ],
+      "liveUrl": "https://covasol.com.vn/",
+      "videoUrl": "",
+      "websites": [
+        { "name": "COVASOL Official", "url": "https://covasol.com.vn/", "category": "Flagship & Production" },
+        { "name": "Trading View Dashboard", "url": "https://trading-view.covasol.io.vn/", "category": "Flagship & Production" },
+        { "name": "Industrial & Logistics", "url": "https://industrial.covasol.io.vn/", "category": "Logistics & Supply Chain" },
+        { "name": "Ecolive Beauty", "url": "https://ecolive.covasol.io.vn/", "category": "Beauty & Cosmetics" },
+        { "name": "Course Platform", "url": "https://course.covasol.io.vn/", "category": "Education & Courses" },
+        { "name": "Cleaning Services", "url": "https://clean.covasol.io.vn/", "category": "Home Services" },
+        { "name": "Gaming Gear", "url": "https://gear.covasol.io.vn/", "category": "Gaming & Gear" }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "tafas-ecommerce",
+      "title": "Tafas.vn | High-End E-Commerce Platform",
+      "description": "Spearheaded by COVASOL, Tafas.vn is a sophisticated, high-performance e-commerce ecosystem built on Next.js. Operating in a dual-capacity role as both Lead Developer and Project Manager, I balanced hands-on technical execution with strategic leadership throughout the entire lifecycle. I personally engineered the complex business logic and high-precision system architecture required to manage thousands of intricate product variants and multi-level SKUs. A key highlight of this project is the highly complex back-office suite I architected to handle end-to-end operational management, ensuring seamless synchronization between technical backend complexity and a conversion-optimized UI/UX.",
+      "features": [
+        "SEO-optimized architecture with Next.js and advanced SEO plugins",
+        "Advanced image optimization and lazy-loading for thousands of product variants",
+        "Granular Role-Based Access Control (RBAC) for secure administration",
+        "Integrated payment and order management system",
+        "Complex product variant management with multi-level SKUs",
+        "Back-office suite for end-to-end operational management",
+        "Conversion-optimized UI/UX design",
+        "Real-time inventory synchronization"
+      ],
+      "achievements": [
+        "Near zero-bug production environment through rigorous QA",
+        "Exceptional client satisfaction resulting in long-term partnership",
+        "Successfully managing thousands of product variants in production",
+        "High-performance load speeds with advanced optimization"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "MySQL",
+        "Tailwind CSS",
+        "REST API",
+        "Vercel"
+      ],
+      "liveUrl": "https://tafas.vn/",
+      "videoUrl": ""
+    },
+    {
+      "id": 5,
+      "slug": "smartmath-ai",
+      "title": "SmartMath | AI-Powered Educational Platform",
+      "description": "Spearheaded by COVASOL, SmartMath is an innovative, AI-driven educational ecosystem designed to provide a modern and intelligent learning environment for both teachers and students. As the Project Lead and Lead Developer, I architected a comprehensive platform that features adaptive learning paths tailored to individual proficiency, a robust online examination engine, and real-time community interaction via Socket.io. The platform's core strength lies in its integrated AI Tutor, which provides instant mathematical solutions with professional-grade LaTeX rendering, alongside detailed learning analytics and a centralized administrative suite for resource management.",
+      "features": [
+        "AI Mathematical Tutor with LaTeX-formatted responses",
+        "Adaptive learning paths based on student competency levels",
+        "Real-time chat system using Socket.io for peer collaboration",
+        "Full-cycle online testing module with automated grading",
+        "Time-limited exams with data-driven analytics",
+        "Centralized Admin Dashboard for resource management",
+        "Role-Based Access Control (RBAC) for data security",
+        "Student progress tracking and learning analytics"
+      ],
+      "achievements": [
+        "Successfully integrated and fine-tuned AI Mathematical Tutor",
+        "Engineered intelligent content delivery system improving learning outcomes",
+        "Implemented high-performance real-time communication system",
+        "Developed comprehensive assessment engine with automated grading"
+      ],
+      "techStack": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Socket.io",
+        "Python",
+        "AI/ML",
+        "LaTeX",
+        "MySQL"
+      ],
+      "liveUrl": "https://smartmath.covasol.io.vn/",
+      "videoUrl": ""
+    },
+    {
+      "id": 6,
+      "slug": "sof-ecommerce",
+      "title": "SOF E-commerce Platform | ERP-Integrated Solution",
+      "description": "A comprehensive, high-performance e-commerce and product showcase platform for SOF, utilizing a decoupled architecture with Next.js for the frontend and PHP-based APIs for the backend. A core technical challenge of this project was the seamless integration with the company's internal ERP system, enabling efficient data extraction and real-time synchronization of complex product catalogs and inventory. The entire system was engineered from the ground up, including a sophisticated product display engine, a secure online purchasing workflow, and integrated payment gateways.",
+      "features": [
+        "Seamless ERP data synchronization with 100% accuracy",
+        "Decoupled architecture with Next.js frontend and PHP API backend",
+        "Advanced product filtering and search capabilities",
+        "Secure cart management and checkout process",
+        "Integrated payment gateways for streamlined transactions",
+        "Server-side rendering (SSR) and static generation (SSG)",
+        "Real-time inventory and pricing management",
+        "High-concurrency data handling between web platform and ERP"
+      ],
+      "achievements": [
+        "Achieved 100% accuracy in ERP data synchronization",
+        "Significantly improved search engine visibility with SSR/SSG",
+        "Maintained high standards of data integrity and security",
+        "Delivered scalable architecture for long-term maintainability"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "PHP",
+        "MySQL",
+        "REST API",
+        "ERP Integration",
+        "Tailwind CSS"
+      ],
+      "liveUrl": "https://sof.com.vn/",
+      "videoUrl": ""
+    },
+    {
+      "id": 7,
+      "slug": "covasol-mini-erp",
+      "title": "COVASOL MiniERP/CRM | Enterprise Resource Planning",
+      "description": "A customized MiniERP/CRM ecosystem for COVASOL, built upon the Idurar open-source framework. This project involves comprehensive refactoring to align with specific enterprise needs, including a complete database migration to MySQL for enhanced scalability and data integrity. Currently leading the engineering of a brand-new frontend interface and the expansion of the backend architecture through the integration of custom modules for specialized business workflows.",
+      "features": [
+        "Complete database migration from original to MySQL",
+        "Custom frontend engineering with modern UI/UX principles",
+        "Optimized database schemas and indexing for large-scale data",
+        "Rigorous version control and code refactoring strategies",
+        "Custom modules for specialized business workflows",
+        "Dashboard responsiveness and user productivity optimization",
+        "Scalable architecture for growing enterprise needs",
+        "Clean code principles throughout the codebase"
+      ],
+      "achievements": [
+        "Successfully migrated entire data layer to MySQL",
+        "Improved query performance for large-scale enterprise data",
+        "Maintained clean, high-quality codebase through rigorous refactoring",
+        "Replacing legacy interface with modern, intuitive frontend"
+      ],
+      "techStack": [
+        "React",
+        "Node.js",
+        "MySQL",
+        "Idurar Framework",
+        "REST API",
+        "TypeScript"
+      ],
+      "liveUrl": "https://erp.covasol.io.vn/",
+      "videoUrl": ""
+    }
+  ]
+}
