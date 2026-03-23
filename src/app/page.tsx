@@ -2,6 +2,7 @@ import data from "@/data/projects.json";
 import ProjectCard from "@/components/ProjectCard";
 import { SectionAnimations, SkillsAnimations } from "./HomeClient";
 import { HeroSection, AboutSection, CTASection } from "./HomeSections";
+import { TechIcon } from "@/components/TechIcon";
 
 export default function Home() {
   const { personal, projects } = data;
@@ -132,8 +133,9 @@ export default function Home() {
                     {group.items.map((skill) => (
                       <span
                         key={skill}
-                        className="px-3 py-1.5 text-xs font-medium rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
                       >
+                        <TechIcon tech={skill} className="w-3.5 h-3.5 flex-shrink-0" />
                         {skill}
                       </span>
                     ))}
@@ -146,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* ========== CTA SECTION ========== */}
-      <section className="py-24">
+      <section id="contact" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionAnimations>
             <div className="text-center max-w-2xl mx-auto">

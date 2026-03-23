@@ -9,17 +9,16 @@ export default function CustomCursor() {
   const [isVisible, setIsVisible] = useState(false);
   const [isClicking, setIsClicking] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-  }, []);
+    const touch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    setIsTouchDevice(touch);
+    if (touch) return;
 
-  useEffect(() => {
-    if (!mounted) return;
-    
-    const isTouchDevice =
-      "ontouchstart" in window || navigator.maxTouchPoints > 0;
-    if (isTouchDevice) return;
+    // Add cursor-none class to body when custom cursor is active
+    document.body.classList.add("cursor-none");
 
     const handleMouseMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
@@ -39,28 +38,22 @@ export default function CustomCursor() {
       setIsPointer(isClickable);
     };
 
-    const handleMouseLeave = () => setIsVisible(false);
-    const handleMouseEnter = () => setIsVisible(true);
     const handleMouseDown = () => setIsClicking(true);
     const handleMouseUp = () => setIsClicking(false);
 
     document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("mouseleave", handleMouseLeave);
-    document.addEventListener("mouseenter", handleMouseEnter);
     document.addEventListener("mousedown", handleMouseDown);
     document.addEventListener("mouseup", handleMouseUp);
 
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("mouseleave", handleMouseLeave);
-      document.removeEventListener("mouseenter", handleMouseEnter);
       document.removeEventListener("mousedown", handleMouseDown);
       document.removeEventListener("mouseup", handleMouseUp);
+      document.body.classList.remove("cursor-none");
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (!mounted || !isVisible) return null;
+  if (!mounted || isTouchDevice || !isVisible) return null;
 
   const outerSize = isClicking ? 20 : isPointer ? 48 : 32;
 

@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import ImageGallery from "@/components/ImageGallery";
 import WebsiteShowcase from "@/components/WebsiteShowcase";
+import { TechIcon } from "@/components/TechIcon";
 
 interface WebsiteEntry {
   name: string;
@@ -27,8 +28,8 @@ interface ProjectData {
   features: string[];
   achievements: string[];
   techStack: string[];
-  liveUrl: string;
-  videoUrl: string;
+  liveUrl?: string;
+  videoUrl?: string;
   websites?: WebsiteEntry[];
 }
 
@@ -74,8 +75,9 @@ export function ProjectDetailPage({
               {project.techStack.map((tech) => (
                 <span
                   key={tech}
-                  className="px-3 py-1.5 text-xs font-medium rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800"
                 >
+                  <TechIcon tech={tech} className="w-3.5 h-3.5 flex-shrink-0" />
                   {tech}
                 </span>
               ))}
@@ -182,8 +184,9 @@ export function ProjectDetailPage({
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-2 text-sm font-medium rounded-lg bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"
+                      className="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"
                     >
+                      <TechIcon tech={tech} className="w-4 h-4 flex-shrink-0" />
                       {tech}
                     </span>
                   ))}

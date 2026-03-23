@@ -20,6 +20,7 @@ export default function TextScramble({
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const hasAnimated = useRef(false);
+  // text is shown immediately (SSR-safe), then scrambled on mount
 
   const animate = useCallback(() => {
     if (!ref.current || hasAnimated.current) return;

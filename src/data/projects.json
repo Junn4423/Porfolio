@@ -31,7 +31,7 @@
         "Multi-user role-based access control"
       ],
       "achievements": [
-        "Achieved a near-perfect graduation thesis score of 9.8/10",
+        "Graduation thesis recognized with distinction by the examination committee",
         "Successfully integrated and tested on specialized handheld POS hardware",
         "Earned high praise from large-scale enterprises during live demonstrations",
         "Proven deployment with stable real-world performance"
@@ -47,7 +47,7 @@
         "RTSP",
         "MySQL"
       ],
-      "liveUrl": "https://ngocchung.dev/project/Parkinglot-Management",
+      "liveUrl": "",
       "videoUrl": "https://www.youtube.com/watch?v=QjRX9OY1gCc"
     },
     {
@@ -81,7 +81,7 @@
         "Socket.io",
         "REST API"
       ],
-      "liveUrl": "https://ngocchung.dev/project/Sales-Management",
+      "liveUrl": "",
       "videoUrl": "https://www.youtube.com/watch?v=lXfgaE_ocnQ"
     },
     {

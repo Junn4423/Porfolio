@@ -23,25 +23,25 @@ export default function Header() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
             <a
-              href="#about"
+              href="/#about"
               className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
             >
               About
             </a>
             <a
-              href="#projects"
+              href="/#projects"
               className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
             >
               Projects
             </a>
             <a
-              href="#skills"
+              href="/#skills"
               className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
             >
               Skills
             </a>
             <a
-              href="#contact"
+              href="/#contact"
               className="text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
             >
               Contact
@@ -88,7 +88,7 @@ export default function Header() {
             {["About", "Projects", "Skills", "Contact"].map((item) => (
               <a
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/#${item.toLowerCase()}`}
                 onClick={() => setMobileMenuOpen(false)}
                 className="px-4 py-3 rounded-lg text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
               >

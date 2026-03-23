@@ -185,7 +185,7 @@ export function HeroSection({ personal }: HeroSectionProps) {
                 className="absolute -bottom-2 -left-2 px-3 py-1.5 rounded-lg bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-700 shadow-lg text-xs font-medium text-emerald-900 dark:text-emerald-400 flex items-center gap-1.5"
               >
                 <GraduationCap className="w-3.5 h-3.5" />
-                9.8/10 Thesis
+                Thesis with Distinction
               </motion.div>
             </div>
           </motion.div>

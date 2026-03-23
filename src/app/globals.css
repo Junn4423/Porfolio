@@ -62,11 +62,15 @@ body {
 
 /* ===== Custom cursor (hide default on desktop) ===== */
 @media (hover: hover) and (pointer: fine) {
-  * {
+  body.cursor-none * {
     cursor: none !important;
   }
-  a, button, [role="button"], input[type="submit"], select,
-  .cursor-pointer {
+  body.cursor-none a, 
+  body.cursor-none button, 
+  body.cursor-none [role="button"], 
+  body.cursor-none input[type="submit"], 
+  body.cursor-none select,
+  body.cursor-none .cursor-pointer {
     cursor: none !important;
   }
 }

@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { TechIcon } from "./TechIcon";
 
 interface ProjectCardProps {
   slug: string;
@@ -19,7 +21,7 @@ export default function ProjectCard({
   description,
   techStack,
   index,
-}: ProjectCardProps) {
+}: ProjectCardProps) {  const [imgError, setImgError] = useState(false);
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }}
@@ -35,13 +37,22 @@ export default function ProjectCard({
         <div className="relative overflow-hidden rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-all duration-500 hover:border-emerald-300 dark:hover:border-emerald-700 hover:shadow-2xl hover:shadow-emerald-900/5 dark:hover:shadow-emerald-400/5">
           {/* Image */}
           <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
-            <Image
-              src={`/projects/${slug}/image1.jpg`}
-              alt={title}
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            />
+            {imgError ? (
+              <div className="absolute inset-0 flex items-center justify-center bg-neutral-100 dark:bg-neutral-800">
+                <p className="text-xs text-neutral-400 dark:text-neutral-500 text-center px-4 italic">
+                  Hình ảnh này sẽ được cập nhật sớm
+                </p>
+              </div>
+            ) : (
+              <Image
+                src={`/projects/${slug}/image1.jpg`}
+                alt={title}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                onError={() => setImgError(true)}
+              />
+            )}
             <div className="absolute inset-0 bg-emerald-950/0 group-hover:bg-emerald-950/20 transition-colors duration-500" />
           </div>
 
@@ -59,8 +70,9 @@ export default function ProjectCard({
               {techStack.slice(0, 4).map((tech) => (
                 <span
                   key={tech}
-                  className="px-2.5 py-1 text-xs font-medium rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800"
+                  className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800"
                 >
+                  <TechIcon tech={tech} className="w-3 h-3 flex-shrink-0" />
                   {tech}
                 </span>
               ))}
