@@ -928,7 +928,7 @@ endobj
 endobj
 8 0 obj
 <<
-/Length 12332
+/Length 12326
 >>
 stream
 1.4173228346456694 w
@@ -1351,7 +1351,7 @@ BT
 10.3499999999999996 TL
 0.392 g
 42.5196850393700814 166.8506262047245627 Td
-(https://ngocchung.dev/project/Sales-Management | Mar 2025 - Feb 2026) Tj
+(https://ngocchung.dev/project/pos-system | Mar 2025 - Feb 2026) Tj
 ET
 BT
 /F2 11 Tf
@@ -1442,7 +1442,7 @@ endobj
 endobj
 10 0 obj
 <<
-/Length 4009
+/Length 11071
 >>
 stream
 1.4173228346456694 w
@@ -1494,7 +1494,7 @@ BT
 10.3499999999999996 TL
 0.392 g
 42.5196850393700814 739.3703145826771106 Td
-(https://ngocchung.dev/project/Parkinglot-Management | Jan 2025 - Mar 2026) Tj
+(https://ngocchung.dev/project/sof-parking | Jan 2025 - Mar 2026) Tj
 ET
 BT
 /F2 11 Tf
@@ -1621,6 +1621,293 @@ BT
 0.392 g
 42.5196850393700814 545.1970851023622799 Td
 (https://ngocchung.dev/project/landingpage | Jun 2025 - Present) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.129 g
+42.5196850393700814 524.8585023685039914 Td
+(AI-Driven Facial Recognition & Anti-Spoofing Ecosystem) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 513.8585022992126596 Td
+(Engineered a high-performance biometric recognition and attendance system designed for seamless enterprise) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 503.858502236220545 Td
+(integration. The core engine is built on a sophisticated Python stack, leveraging InsightFace for high-precision facial) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 493.8585021732283735 Td
+(analysis and PyTorch for advanced anti-spoofing detection to prevent fraudulent entries via mobile screens or) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 483.8585021102362589 Td
+(printed photos. Architected with a Flask-based API layer, the system provides real-time, high-FPS inference and) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 473.8585020472440874 Td
+(has been successfully validated through rigorous field testing by SOF clients. A key technical milestone was the) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 463.8585019842519728 Td
+(successful integration of this biometric service into a broader Smart Parking Management system, enabling) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 453.8585019212598581 Td
+(simultaneous driver verification and automated attendance tracking synchronized directly with corporate ERP) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 443.8585018582677435 Td
+(databases.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 431.0238561259843095 Td
+(• - Advanced Anti-Spoofing Protection: Implemented a robust neural network using PyTorch and Torchvision to) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 421.0238560629921949 Td
+(distinguish between live subjects and high-resolution spoofs \(screens/photos\).) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 411.0238560000000803 Td
+(• - High-Performance Inference: Optimized real-time recognition using ONNX Runtime and OpenVINO, achieving) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 401.0238559370079656 Td
+(stable FPS and ultra-low latency for instant biometric verification.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 391.023855874015851 Td
+(• - Enterprise ERP Integration: Developed a seamless data bridge using Flask-SQLAlchemy to synchronize) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 381.0238558110237364 Td
+(attendance records and biometric logs with central ERP systems in real-time.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 371.0238557480316217 Td
+(• - High-Speed Biometric Enrollment: Engineered an optimized registration workflow for rapid facial data ingestion) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 361.0238556850395071 Td
+(without compromising recognition accuracy.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 351.0238556220473924 Td
+(• - Scalable Microservice Architecture: Successfully decoupled the recognition engine as a standalone service,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 341.0238555590552778 Td
+(allowing for easy integration into existing enterprise ecosystems like the SOF Parking suite.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 331.0238554960631632 Td
+(• - Tech Stack: Flask, InsightFace \(Buffalo_L\), ONNX Runtime OpenVINO, PyTorch, OpenCV, NumPy, Pillow.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.392 g
+42.5196850393700814 321.0238554330710485 Td
+(https://ngocchung.dev/project/facial-recognition-ai | Jan 2025 - Mar 2026) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.129 g
+42.5196850393700814 300.68527269921276 Td
+(Enterprise Chatbot Management & Knowledge Orchestrator) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 289.6852726299214282 Td
+(Architected a centralized management platform for corporate chatbots, designed to streamline the deployment of) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 279.6852725669293704 Td
+(sector-specific AI assistants. This platform empowers the company to generate and manage secure chat tokens for) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 269.685272503937199 Td
+(different business domains while ensuring that all responses strictly adhere to pre-configured knowledge bases and) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 259.6852724409451412 Td
+(business rules. The system bridges the gap between raw data and conversational AI by connecting directly to the) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 249.6852723779529697 Td
+(corporate ERP, fetching real-time data to provide accurate, context-aware answers. To support internal scalability, I) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 239.6852723149607982 Td
+(implemented an automated documentation engine that generates JSON schema and developer guides, significantly) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 229.6852722519687404 Td
+(reducing the integration time for frontend developers.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 216.8506265196851928 Td
+(• - Dynamic Token & Sector Management: Developed a multi-tenant management interface to create and configure) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 206.850626456693135 Td
+(independent chatbot instances for various company departments.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 196.8506263937009635 Td
+(• - ERP-Driven Intelligence: Integrated a secure data extraction layer to feed real-time corporate information from) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 186.8506263307089057 Td
+(MySQL databases into the chatbot's knowledge engine.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 176.8506262677167342 Td
+(• - Automated Developer Tooling: Engineered a script to auto-generate comprehensive JSON documentation,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 166.8506262047246764 Td
+(enabling rapid API integration for technical teams.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 156.8506261417325049 Td
+(• - Controlled Response Logic: Implemented a strict rule-based framework to ensure chatbot interactions remain) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 146.8506260787404472 Td
+(within professional boundaries and utilize verified company knowledge.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 136.8506260157482757 Td
+(• - Full-Stack Efficiency: Leveraged a high-performance combination of React for the administrative dashboard and) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 126.8506259527562179 Td
+(PHP for robust backend logic and API handling.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.129 g
+42.5196850393700814 116.8506258897640464 Td
+(• - Tech Stack: React, PHP, MySQL, RESTful API, JSON Documentation Engine.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.392 g
+42.5196850393700814 106.8506258267719886 Td
+(https://ngocchung.dev/project/chatbot-manager | Jan 2026 - Feb 2026) Tj
 ET
 endstream
 endobj
@@ -1794,7 +2081,7 @@ endobj
 25 0 obj
 <<
 /Producer (jsPDF 3.0.3)
-/CreationDate (D:20260324002403+07'00')
+/CreationDate (D:20260324104146+07'00')
 >>
 endobj
 26 0 obj
@@ -1808,39 +2095,39 @@ endobj
 xref
 0 27
 0000000000 65535 f 
-0000037884 00000 n 
-0000039724 00000 n 
+0000044941 00000 n 
+0000046781 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
 0000010705 00000 n 
 0000010842 00000 n 
 0000021162 00000 n 
 0000021299 00000 n 
-0000033684 00000 n 
-0000033822 00000 n 
-0000037959 00000 n 
-0000038085 00000 n 
-0000038216 00000 n 
-0000038350 00000 n 
-0000038488 00000 n 
-0000038612 00000 n 
-0000038741 00000 n 
-0000038873 00000 n 
-0000039009 00000 n 
-0000039137 00000 n 
-0000039264 00000 n 
-0000039393 00000 n 
-0000039526 00000 n 
-0000039628 00000 n 
-0000039977 00000 n 
-0000040063 00000 n 
+0000033678 00000 n 
+0000033816 00000 n 
+0000045016 00000 n 
+0000045142 00000 n 
+0000045273 00000 n 
+0000045407 00000 n 
+0000045545 00000 n 
+0000045669 00000 n 
+0000045798 00000 n 
+0000045930 00000 n 
+0000046066 00000 n 
+0000046194 00000 n 
+0000046321 00000 n 
+0000046450 00000 n 
+0000046583 00000 n 
+0000046685 00000 n 
+0000047034 00000 n 
+0000047120 00000 n 
 trailer
 <<
 /Size 27
 /Root 26 0 R
 /Info 25 0 R
-/ID [ <C5583DAC06AF443C697145EB6EAD4E32> <C5583DAC06AF443C697145EB6EAD4E32> ]
+/ID [ <E4F3C851D43C3F888F581BFD8BA99149> <E4F3C851D43C3F888F581BFD8BA99149> ]
 >>
 startxref
-40167
+47224
 %%EOF
