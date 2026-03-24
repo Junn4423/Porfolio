@@ -1,8 +1,8 @@
 import data from "@/data/projects.json";
-import ProjectCard from "@/components/ProjectCard";
-import { SectionAnimations, SkillsAnimations } from "./HomeClient";
+import ProjectTimeline from "@/components/ProjectTimeline";
+import SkillsConstellation from "@/components/SkillsConstellation";
+import { SectionAnimations } from "./HomeClient";
 import { HeroSection, AboutSection, CTASection } from "./HomeSections";
-import { TechIcon } from "@/components/TechIcon";
 
 export default function Home() {
   const { personal, projects } = data;
@@ -86,17 +86,8 @@ export default function Home() {
             </div>
           </SectionAnimations>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <ProjectCard
-                key={project.id}
-                slug={project.slug}
-                title={project.title}
-                description={project.description}
-                techStack={project.techStack}
-                index={index}
-              />
-            ))}
+          <div className="mt-2">
+            <ProjectTimeline projects={projects} />
           </div>
         </div>
       </section>
@@ -119,31 +110,7 @@ export default function Home() {
             </div>
           </SectionAnimations>
 
-          <SkillsAnimations>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {skills.map((group) => (
-                <div
-                  key={group.category}
-                  className="p-6 rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900"
-                >
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-emerald-900 dark:text-emerald-400 mb-4">
-                    {group.category}
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {group.items.map((skill) => (
-                      <span
-                        key={skill}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
-                      >
-                        <TechIcon tech={skill} className="w-3.5 h-3.5 flex-shrink-0" />
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </SkillsAnimations>
+          <SkillsConstellation skills={skills} />
         </div>
       </section>
 

@@ -46,6 +46,15 @@ export default function Header() {
             >
               Contact
             </a>
+            <a
+              href="/cv/cv-luong-ngoc-chung-english.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-sm font-medium rounded-lg bg-emerald-900 dark:bg-emerald-600 text-white hover:bg-emerald-800 dark:hover:bg-emerald-500 transition-colors"
+            >
+              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              CV
+            </a>
           </nav>
 
           {/* Actions */}
@@ -95,6 +104,15 @@ export default function Header() {
                 {item}
               </a>
             ))}
+            <a
+              href="/cv/cv-luong-ngoc-chung-english.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-4 py-3 rounded-lg text-sm font-medium text-emerald-900 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/20 hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors"
+            >
+              Download CV
+            </a>
           </nav>
         </div>
       )}

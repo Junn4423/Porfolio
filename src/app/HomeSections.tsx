@@ -10,6 +10,7 @@ import {
   Bot,
   Building2,
   Mail,
+  FileDown,
 } from "lucide-react";
 
 function GithubIcon({ className }: { className?: string }) {
@@ -27,6 +28,22 @@ function LinkedinIcon({ className }: { className?: string }) {
       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
       <rect width="4" height="12" x="2" y="9" />
       <circle cx="4" cy="4" r="2" />
+    </svg>
+  );
+}
+
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+    </svg>
+  );
+}
+
+function ZaloIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 14.163c-.18.328-.543.637-.96.775-.18.06-.408.09-.66.09-.36 0-.783-.078-1.26-.24a8.7 8.7 0 0 1-1.14-.48 12.3 12.3 0 0 1-1.86-1.2 12.3 12.3 0 0 1-1.2-1.14c-.18-.2-.348-.39-.48-.57a8.7 8.7 0 0 1-.48-1.14c-.162-.477-.24-.9-.24-1.26 0-.252.03-.48.09-.66.138-.417.447-.78.775-.96A1.8 1.8 0 0 1 11.1 7.2c.12 0 .24.018.348.054.228.075.42.24.54.453l.66 1.14c.12.21.12.468 0 .678l-.42.72a.3.3 0 0 0 0 .312c.18.33.45.69.81 1.05.36.36.72.63 1.05.81a.3.3 0 0 0 .312 0l.72-.42c.21-.12.468-.12.678 0l1.14.66c.213.12.378.312.453.54.036.108.054.228.054.348a1.8 1.8 0 0 1-.078.618z" />
     </svg>
   );
 }
@@ -112,6 +129,17 @@ export function HeroSection({ personal }: HeroSectionProps) {
               >
                 Get In Touch
               </MagneticButton>
+
+              <MagneticButton
+                as="a"
+                href="/cv/cv-luong-ngoc-chung-english.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 font-medium text-sm hover:border-emerald-400 dark:hover:border-emerald-600 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
+              >
+                <FileDown className="w-4 h-4" />
+                Download CV
+              </MagneticButton>
             </div>
 
             {/* Social links */}
@@ -138,6 +166,30 @@ export function HeroSection({ personal }: HeroSectionProps) {
                 className="w-10 h-10 rounded-lg border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-500 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors"
               >
                 <LinkedinIcon className="w-5 h-5" />
+              </MagneticButton>
+
+              <MagneticButton
+                as="a"
+                href="https://www.facebook.com/junloun4423/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ariaLabel="Facebook"
+                strength={0.4}
+                className="w-10 h-10 rounded-lg border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-500 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors"
+              >
+                <FacebookIcon className="w-5 h-5" />
+              </MagneticButton>
+
+              <MagneticButton
+                as="a"
+                href="https://zalo.me/0707038113"
+                target="_blank"
+                rel="noopener noreferrer"
+                ariaLabel="Zalo"
+                strength={0.4}
+                className="w-10 h-10 rounded-lg border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-500 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors"
+              >
+                <ZaloIcon className="w-5 h-5" />
               </MagneticButton>
             </div>
           </motion.div>

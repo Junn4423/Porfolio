@@ -48,7 +48,8 @@
         "MySQL"
       ],
       "liveUrl": "",
-      "videoUrl": "https://www.youtube.com/watch?v=QjRX9OY1gCc"
+      "videoUrl": "https://www.youtube.com/watch?v=QjRX9OY1gCc",
+      "date": "Jan 2025 – Mar 2026"
     },
     {
       "id": 2,
@@ -82,7 +83,9 @@
         "REST API"
       ],
       "liveUrl": "",
-      "videoUrl": "https://www.youtube.com/watch?v=lXfgaE_ocnQ"
+      "videoUrl": "https://www.youtube.com/watch?v=lXfgaE_ocnQ",
+      "videoUrl2": "https://www.youtube.com/watch?v=ZKu7nHJ9Rm4",
+      "date": "Mar 2025 – Feb 2026"
     },
     {
       "id": 3,
@@ -117,6 +120,7 @@
       ],
       "liveUrl": "https://covasol.com.vn/",
       "videoUrl": "",
+      "date": "Jun 2025 – Present",
       "websites": [
         { "name": "COVASOL Official", "url": "https://covasol.com.vn/", "category": "Flagship & Production" },
         { "name": "Trading View Dashboard", "url": "https://trading-view.covasol.io.vn/", "category": "Flagship & Production" },
@@ -158,7 +162,8 @@
         "Vercel"
       ],
       "liveUrl": "https://tafas.vn/",
-      "videoUrl": ""
+      "videoUrl": "",
+      "date": "Dec 2025 – Present"
     },
     {
       "id": 5,
@@ -192,7 +197,8 @@
         "MySQL"
       ],
       "liveUrl": "https://smartmath.covasol.io.vn/",
-      "videoUrl": ""
+      "videoUrl": "",
+      "date": "Sep 2025 – Feb 2026"
     },
     {
       "id": 6,
@@ -225,7 +231,8 @@
         "Tailwind CSS"
       ],
       "liveUrl": "https://sof.com.vn/",
-      "videoUrl": ""
+      "videoUrl": "",
+      "date": "Dec 2025 – Jan 2026"
     },
     {
       "id": 7,
@@ -257,7 +264,75 @@
         "TypeScript"
       ],
       "liveUrl": "https://erp.covasol.io.vn/",
-      "videoUrl": ""
+      "videoUrl": "",
+      "date": "Feb 2026 – Present"
+    },
+    {
+      "id": 8,
+      "slug": "facial-recognition-ai",
+      "title": "AI-Driven Facial Recognition & Anti-Spoofing Ecosystem",
+      "description": "A high-performance biometric recognition and attendance system designed for seamless enterprise integration. The core engine is built on a sophisticated Python stack, leveraging InsightFace for high-precision facial analysis and PyTorch for advanced anti-spoofing detection to prevent fraudulent entries via mobile screens or printed photos. Architected with a Flask-based API layer, the system provides real-time, high-FPS inference and has been successfully validated through rigorous field testing. A key technical milestone was the successful integration into a broader Smart Parking Management system, enabling simultaneous driver verification and automated attendance tracking synchronized directly with corporate ERP databases.",
+      "features": [
+        "Advanced Anti-Spoofing Protection using PyTorch neural networks",
+        "High-Performance Real-time Recognition with ONNX Runtime and OpenVINO",
+        "Enterprise ERP Integration via Flask-SQLAlchemy for attendance sync",
+        "High-Speed Biometric Enrollment workflow",
+        "Scalable Microservice Architecture for easy ecosystem integration",
+        "Real-time RTSP camera stream processing",
+        "Automated attendance tracking synchronized with ERP",
+        "Live vs spoof detection (screens/photos)"
+      ],
+      "achievements": [
+        "Successfully distinguished live subjects from high-resolution spoofs",
+        "Achieved stable FPS and ultra-low latency for instant biometric verification",
+        "Seamlessly integrated as a standalone service into the SOF Parking suite",
+        "Validated through rigorous field testing by enterprise clients"
+      ],
+      "techStack": [
+        "Python",
+        "Flask",
+        "PyTorch",
+        "InsightFace",
+        "ONNX Runtime",
+        "OpenVINO",
+        "OpenCV",
+        "MySQL"
+      ],
+      "liveUrl": "",
+      "videoUrl": "",
+      "date": "Jan 2025 – Mar 2026"
+    },
+    {
+      "id": 9,
+      "slug": "chatbot-manager",
+      "title": "Enterprise Chatbot Management & Knowledge Orchestrator",
+      "description": "A centralized management platform for corporate chatbots, designed to streamline the deployment of sector-specific AI assistants. This platform empowers the company to generate and manage secure chat tokens for different business domains while ensuring that all responses strictly adhere to pre-configured knowledge bases and business rules. The system bridges the gap between raw data and conversational AI by connecting directly to the corporate ERP, fetching real-time data to provide accurate, context-aware answers. An automated documentation engine generates JSON schema and developer guides, significantly reducing integration time for frontend developers.",
+      "features": [
+        "Dynamic Token & Sector Management for multi-tenant chatbot instances",
+        "ERP-Driven Intelligence with real-time corporate data feeding",
+        "Automated JSON documentation generation for rapid API integration",
+        "Strict rule-based response framework for professional boundaries",
+        "Multi-department chatbot configuration from a single dashboard",
+        "Secure data extraction from MySQL databases",
+        "Real-time context-aware response engine",
+        "Developer-friendly API documentation tooling"
+      ],
+      "achievements": [
+        "Developed multi-tenant management interface for independent chatbot instances",
+        "Integrated secure data extraction layer from corporate ERP",
+        "Auto-generated comprehensive JSON documentation for technical teams",
+        "Implemented strict rule-based framework ensuring verified company knowledge"
+      ],
+      "techStack": [
+        "React",
+        "PHP",
+        "MySQL",
+        "REST API",
+        "AI/ML"
+      ],
+      "liveUrl": "",
+      "videoUrl": "",
+      "date": "Jan 2026 – Feb 2026"
     }
   ]
 }

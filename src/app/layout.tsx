@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   title: "Chung.dev | Full Stack Developer Portfolio",
   description:
     "High-performing Full Stack Developer — architecting robust backend systems, seamless UI/UX across Web, Mobile & Desktop. Portfolio of Luong Ngoc Chung.",
+  icons: {
+    icon: "/logo/logo.jpg",
+    apple: "/logo/logo.jpg",
+  },
   keywords: [
     "Full Stack Developer",
     "React",

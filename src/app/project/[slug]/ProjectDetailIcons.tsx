@@ -30,6 +30,7 @@ interface ProjectData {
   techStack: string[];
   liveUrl?: string;
   videoUrl?: string;
+  videoUrl2?: string;
   websites?: WebsiteEntry[];
 }
 
@@ -104,7 +105,18 @@ export function ProjectDetailPage({
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 border-emerald-900 dark:border-emerald-400 text-emerald-900 dark:text-emerald-400 font-medium text-sm hover:bg-emerald-900/5 dark:hover:bg-emerald-400/5 transition-colors"
                 >
                   <Play className="w-4 h-4" />
-                  Watch Demo
+                  {project.videoUrl2 ? 'Demo 1' : 'Watch Demo'}
+                </a>
+              )}
+              {project.videoUrl2 && (
+                <a
+                  href={project.videoUrl2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 border-emerald-900 dark:border-emerald-400 text-emerald-900 dark:text-emerald-400 font-medium text-sm hover:bg-emerald-900/5 dark:hover:bg-emerald-400/5 transition-colors"
+                >
+                  <Play className="w-4 h-4" />
+                  Demo 2
                 </a>
               )}
             </div>

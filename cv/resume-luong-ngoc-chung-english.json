@@ -1,0 +1,286 @@
+{
+  "basics": {
+    "name": "LUONG NGOC CHUNG",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "chungluong4423@gmail.com",
+    "phone": "+84707038113",
+    "url": "ngocchung.dev",
+    "summary": "High-performing Full Stack Developer with a proven track record of architecting robust backend systems using PHP and Node.js. Versatile in engineering seamless UI/UX experiences across multiple environments, including Web (React), Mobile (React Native), and Desktop (Electron). Proficient in Python for both backend development and Machine Learning model training. Expert at bridging the gap between hardware and software through IoT and AI integration, delivering innovative, end-to-end technical solutions.",
+    "location": {
+      "address": "123 Main Street",
+      "postalCode": "700000",
+      "city": "Ho Chi Minh City",
+      "region": "Tan Phu",
+      "countryCode": "Vietnam"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "johndoe",
+        "url": "https://www.linkedin.com/in/junloun/"
+      },
+      {
+        "network": "GitHub",
+        "username": "johndoe",
+        "url": "https://github.com/Junn4423/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SOF Co., Ltd.",
+      "position": "Project Lead / Intern Manager",
+      "url": "http://sof.com.vn/",
+      "startDate": "2025-08",
+      "endDate": "",
+      "summary": "A proven Project Lead with experience in mentoring interns and orchestrating project lifecycles. Adept at strategic planning, resource allocation, and maintaining rigorous progress evaluations to ensure all technical objectives are met within established timelines.",
+      "highlights": [
+        "- Successfully mentored and supervised a team of interns, fostering a collaborative environment that ensured all project deliverables met high-quality standards and strict deadlines.",
+        "- Spearheaded the full Software Development Life Cycle (SDLC) for multiple projects, from initial business requirement analysis and database architecture to final deployment and handover.",
+        "- Engineered and deployed seamless user experiences across Web (React/Next.js), Mobile (React Native), and Desktop (Electron), maintaining high performance and UI/UX consistency."
+      ]
+    },
+    {
+      "name": "SOF Co., Ltd.",
+      "position": "Full Stack Developer",
+      "url": "http://sof.com.vn/",
+      "startDate": "2024-11",
+      "endDate": "",
+      "summary": "A results-driven Full Stack Developer and Project Lead with a proven ability to manage the entire Software Development Life Cycle (SDLC). I excel at transforming business requirements into actionable project roadmaps, from initial initiation and resource allocation to architecting scalable databases and engineering robust backend systems with seamless ERP integrations. By fostering close collaboration between frontend development and quality assurance, I ensure high-performance, user-centric solutions. Committed to project longevity, I prioritize rigorous technical documentation and seamless knowledge transfer to succeeding teams, while driving continuous post-launch enhancements to meet evolving business needs.",
+      "highlights": [
+        "- Developed robust backend architectures using PHP and Node.js, including successful API integrations with corporate ERP systems to streamline business workflows.",
+        "- Successfully integrated AI-driven modules and IoT hardware connectivity into production environments, enhancing automation and delivering smart technical solutions.",
+        "- Improved long-term system maintainability and reduced onboarding time for succeeding developers by authoring comprehensive technical documentation and standardized handover protocols."
+      ]
+    },
+    {
+      "name": "SOF Co., Ltd.",
+      "position": "Software Sales",
+      "url": "http://sof.com.vn/",
+      "startDate": "2025-12",
+      "endDate": "",
+      "summary": "A versatile Technical Sales and Business Development professional with a strong background in software solutions. Expert at bridging the gap between technical products and client needs through consultative selling and persuasive demonstrations. Proven track record in driving revenue, creating high-quality user enablement content, and building strategic partnerships with hardware vendors and investors to fuel company expansion.",
+      "highlights": [
+        "- A proactive Software Sales and Business Development professional with a knack for transforming technical solutions into compelling value propositions. Within a high-impact tenure, I successfully managed the full sales cycle-from initial client consultation and tailored project presentations to the creation of instructional video content for seamless user onboarding. Beyond direct sales, I played a key role in company expansion by identifying strategic hardware suppliers and potential investors. Notably, I secured high-level engagement from industry giants such as Becamex Binh Duong and Century Synthetic Fiber,..etc.. successfully advancing these key accounts into the final evaluation and strategic partnership phases."
+      ]
+    },
+    {
+      "name": "COVASOL (Core Values Solutions)",
+      "position": "Founder",
+      "url": "https://covasol.com.vn/",
+      "startDate": "2025-06",
+      "endDate": "",
+      "summary": "As the Founder of COVASOL (Core Values Solutions), I established and lead a dynamic development team dedicated to providing bespoke technology solutions and on-demand software development. I oversee the entire business and technical lifecycle, from strategic planning and client acquisition to high-level software architecture. Under my leadership, COVASOL focuses on delivering high-quality, scalable digital products that prioritize 'Core Values' through clean code, innovative AI integrations, and user-centric design.",
+      "highlights": [
+        "- Founded and spearheaded the strategic direction of a specialized programming team, focusing on high-quality, on-demand software services.",
+        "- Successfully managed client relationships and negotiated contracts for diverse projects, ranging from AI-powered automation tools to complex web ecosystems.",
+        "- Acted as the Lead Architect, ensuring all projects adhere to strict 'Clean Code' principles and optimized performance standards.",
+        "- Orchestrated cross-functional workflows and mentored team members to ensure seamless project execution and on-time delivery.",
+        "- Launched and managed the company’s digital presence, including SEO-driven content strategies and community engagement on social platforms."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ho Chi Minh City University of Industry and Trade",
+      "url": "https://huit.edu.vn/",
+      "area": "Information Systems",
+      "studyType": "Bachelor of Information Technology",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "score": "2.7",
+      "courses": [
+        "Database Management Systems (DBMS)",
+        "Systems Analysis and Design (SAD)",
+        "Data Structures and Algorithms",
+        "Web Application Development",
+        "Software Engineering",
+        "Object-Oriented Programming (OOP)",
+        "Artificial Intelligence (AI)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Expert",
+      "keywords": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5 & CSS3",
+        "Framer Motion",
+        "Material UI",
+        "Vite",
+        "React Native",
+        "Next.js SEO plugins"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Advanced ",
+      "keywords": [
+        "Node.js",
+        "Python",
+        "JavaScript/TypeScript",
+        "C#",
+        "PHP",
+        "FastAPI",
+        "ASP.NET Core",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "GitHub"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Working"
+    },
+    {
+      "language": "Vietnamese",
+      "fluency": "Native"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tafas.vn | High-End E-Commerce Platform (Live)",
+      "description": "Spearheaded by COVASOL, Tafas.vn is a sophisticated, high-performance e-commerce ecosystem built on Next.js. Operating in a dual-capacity role as both Lead Developer and Project Manager, I balanced hands-on technical execution with strategic leadership throughout the entire lifecycle—from initial price negotiation to long-term client relations. I personally engineered the complex business logic and high-precision system architecture required to manage thousands of intricate product variants and multi-level SKUs. A key highlight of this project is the highly complex back-office suite I architected to handle end-to-end operational management, ensuring seamless synchronization between technical backend complexity and a conversion-optimized UI/UX. Currently in live production, this project stands as a cornerstone of COVASOL’s portfolio, demonstrating our ability to deliver robust, scalable, and commercially successful digital solutions.",
+      "highlights": [
+        "- SEO-Optimized Architecture: Engineered a high-visibility website architecture using Next.js and advanced SEO plugins, ensuring optimal indexing, semantic HTML, and superior search engine rankings.",
+        "- Performance & Media Optimization: Achieved exceptional load speeds and performance by implementing advanced image optimization and lazy-loading techniques, enabling the seamless storage and display of thousands of high-resolution product variants.",
+        "- High-Reliability & Robust Logic: Delivered a near zero-bug production environment through rigorous internal testing (QA) and a solid initial business logic foundation, ensuring system stability and operational accuracy from day one.",
+        "- Secure Management & Granular RBAC: Integrated a high-integrity payment and order management system featuring Granular Role-Based Access Control (RBAC) to ensure secure data handling and precise administrative permissions.",
+        "- Client Success & Retention: Secured exceptional client satisfaction, resulting in a long-term strategic partnership for ongoing system maintenance and the continuous development of new features."
+      ],
+      "startDate": "2025-12",
+      "endDate": "",
+      "url": "https://tafas.vn/"
+    },
+    {
+      "name": "SmartMath | AI-Powered Educational Platform (Live)",
+      "description": "Spearheaded by COVASOL, SmartMath is an innovative, AI-driven educational ecosystem designed to provide a modern and intelligent learning environment for both teachers and students. As the Project Lead and Lead Developer, I architected a comprehensive platform that features adaptive learning paths tailored to individual proficiency, a robust online examination engine, and real-time community interaction via Socket.io. The platform's core strength lies in its integrated AI Tutor, which provides instant mathematical solutions with professional-grade LaTeX rendering, alongside detailed learning analytics and a centralized administrative suite for resource management.",
+      "highlights": [
+        "- AI Integration & Custom Training: Successfully integrated and fine-tuned an AI Mathematical Tutor capable of interpreting complex queries and delivering high-fidelity LaTeX-formatted responses for clear, professional formula displays.",
+        "- Adaptive Learning Architecture: Engineered an intelligent course delivery system that dynamically adjusts content based on pre-configured student competency levels, significantly improving learning outcomes.",
+        "- Real-time Community Engagement: Implemented a high-performance real-time chat system using Socket.io, fostering an interactive environment for peer-to-peer collaboration and instant student support.",
+        "- Comprehensive Assessment Engine: Developed a full-cycle online testing module featuring automated grading, time-limited exams, and data-driven analytics to track student progress over time.",
+        "- Centralized Resource & Access Control: Architected a robust Admin Dashboard for seamless resource management and implemented Role-Based Access Control (RBAC) to ensure data security and operational integrity."
+      ],
+      "startDate": "2025-09",
+      "endDate": "2026-02",
+      "url": "https://smartmath.covasol.io.vn/"
+    },
+    {
+      "name": "SOF E-commerce Platform | ERP-Integrated Solution (Live)",
+      "description": "Developed a comprehensive, high-performance e-commerce and product showcase platform for SOF, utilizing a decoupled architecture with Next.js for the frontend and PHP-based APIs for the backend. A core technical challenge of this project was the seamless integration with the company’s internal ERP system, enabling efficient data extraction and real-time synchronization of complex product catalogs and inventory. I engineered the entire system from the ground up, including a sophisticated product display engine, a secure online purchasing workflow, and integrated payment gateways to provide an end-to-end digital retail experience.",
+      "highlights": [
+        "- Seamless ERP Data Synchronization: Successfully engineered a secure data bridge to extract and synchronize real-time information from the corporate ERP system, ensuring 100% accuracy in product availability, pricing, and inventory management.",
+        "- Modern Decoupled Architecture: Architected a scalable solution combining Next.js for a lightning-fast user interface and a robust PHP API layer, optimizing system performance and long-term maintainability.",
+        "- Full-Cycle E-commerce Integration: Developed a complete online shopping ecosystem, featuring advanced product filtering, secure cart management, and integrated payment gateways for a streamlined checkout process.",
+        "- Optimized Performance & SEO: Leveraged Next.js server-side rendering (SSR) and static generation (SSG) to deliver a highly responsive product showcase, significantly improving search engine visibility and user engagement.",
+        "- Secure Backend API Logic: Engineered complex backend logic to handle high-concurrency data interactions between the web platform and the ERP database, maintaining high standards of data integrity and security."
+      ],
+      "startDate": "2025-12",
+      "endDate": "2026-01",
+      "url": "https://sof.com.vn/"
+    },
+    {
+      "name": "COVASOL MiniERP/CRM | Enterprise Resource Planning Solution (In development)",
+      "description": "Spearheaded the development of a customized MiniERP/CRM ecosystem for COVASOL, built upon the Idurar open-source framework. My role involves a comprehensive refactoring of the system to align with specific enterprise needs, including a complete database migration to MySQL for enhanced scalability and data integrity. I am currently leading the engineering of a brand-new frontend interface and the expansion of the backend architecture through the integration of custom modules for specialized business workflows.",
+      "highlights": [
+        "- Database Migration & Optimization: Successfully re-architected and migrated the entire system's data layer from its original database to MySQL, optimizing schemas and indexing to improve query performance for large-scale enterprise data.",
+        "- Custom Frontend Engineering: Developing a highly responsive and intuitive new frontend using modern UI/UX principles, replacing the legacy interface to improve user productivity and dashboard responsiveness.",
+        "- Source Code Mastery & Control: Implemented rigorous version control and code refactoring strategies to maintain a clean, high-quality codebase, ensuring the system remains maintainable as it scales."
+      ],
+      "startDate": "2026-02",
+      "endDate": "",
+      "url": "https://erp.covasol.io.vn/"
+    },
+    {
+      "name": "Multi-platform POS & Retail Management Solution",
+      "description": "This project is a modern, all-in-one Point of Sale (POS) ecosystem tailored specifically for the F&B and retail sectors, offering unparalleled flexibility across diverse hardware environments. Engineered with a powerful ERP backend, the system enables real-time synchronization of inventory, sales data, and complex business workflows. The frontend, architected using React Electron and React Native, provides a unified and fluid user experience across desktop workstations, specialized dual-screen POS registers, tablets, and smartphones. Beyond standard transaction processing, the solution addresses the modern needs of digital commerce by integrating deep support for electronic invoicing (e-invoice) and leading digital payment gateways such as Momo, VNPay, and ZaloPay. This ensures that business owners can manage their operations transparently and securely from any location, on any device.",
+      "highlights": [
+        "- Universal Compatibility: Demonstrated flawless stability across all major operating systems and specialized retail hardware configurations.",
+        "- Operational Efficiency: Streamlined the checkout process to ensure high-speed transactions even during peak hours, significantly reducing customer wait times.",
+        "- Full Digital Integration: Successfully implemented end-to-end e-invoice synchronization and professional thermal printing.",
+        "- Seamless Payment Ecosystem: Native support for the most popular cashless payment methods, enhancing the customer experience.",
+        "- Demo 1: https://www.youtube.com/watch?v=lXfgaE_ocnQ&t=1s",
+        "- Demo 2: https://www.youtube.com/watch?v=ZKu7nHJ9Rm4"
+      ],
+      "startDate": "2025-03",
+      "endDate": "2026-02",
+      "url": "https://ngocchung.dev/project/pos-system"
+    },
+    {
+      "name": "SOF Smart Parking Management System",
+      "description": "This project is a comprehensive parking management ecosystem designed to streamline operations and fortify security through a sophisticated blend of software and hardware integration. Built on an API-first architecture, the system ensures seamless communication between the core processing engine and various user interfaces. The desktop application, developed with Electron, delivers high-performance stability across Windows, macOS, and Linux. Complementing this, the React Native mobile suite provides a versatile experience on iOS and Android, while also being deeply optimized for handheld mini POS devices to support on-the-spot thermal bill printing. The technical core of the system leverages AI-driven models for automated License Plate Recognition (LPR) and facial matching, integrated with RTSP camera streams for real-time surveillance and IoT modules for automated barrier control. While the source code remains highly secured, the project has been successfully demonstrated to major corporate clients, receiving exceptional feedback for its reliability and scalability.",
+      "highlights": [
+        "Academic Excellence: Utilized as a graduation internship thesis, achieving a near-perfect score of 9.8/10.",
+        "Proven Deployment: Successfully integrated and tested on specialized handheld POS hardware with stable real-world performance.",
+        "Corporate Validation: Earned high praise from large-scale enterprises during live demonstrations for its robust ERP synchronization and security features.",
+        "Demo: https://www.youtube.com/watch?v=QjRX9OY1gCc"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2026-03",
+      "url": "https://ngocchung.dev/project/sof-parking"
+    },
+    {
+      "name": "Modern Web & UI/UX Landing Page Collection",
+      "description": "This portfolio represents a curated selection of high-performance, visually stunning landing pages designed to meet diverse industry needs. Each project is architected with a focus on SEO optimization, Core Web Vitals, and an immersive user experience. Leveraging the power of React and Next.js, I have implemented advanced frontend techniques including Tailwind CSS for rapid, responsive styling and SCSS/CSS3 for custom, intricate layouts. To elevate the visual storytelling, I integrate Framer Motion for fluid, state-based animations and Three.js to introduce interactive 3D elements, ensuring each site stands out in the digital landscape. These projects range from live production environments for established brands to high-fidelity showcases for sectors like Logistics, Education, and Industrial construction.",
+      "highlights": [
+        "- Flagship & Production: https://covasol.com.vn/",
+        "- Flagship & Production: https://trading-view.covasol.io.vn/",
+        "- Logistics & Supply Chain: https://industrial.covasol.io.vn/",
+        "- Beauty & Cosmetics: https://ecolive.covasol.io.vn/",
+        "- Education & Courses: https://course.covasol.io.vn/",
+        "- Industrial & Construction: https://industrial.covasol.io.vn/",
+        "- Home Services (Cleaning): https://clean.covasol.io.vn/",
+        "- Gaming & Gear: https://gear.covasol.io.vn/"
+      ],
+      "startDate": "2025-06",
+      "endDate": "",
+      "url": "https://ngocchung.dev/project/landingpage"
+    },
+    {
+      "name": "AI-Driven Facial Recognition & Anti-Spoofing Ecosystem",
+      "description": "Engineered a high-performance biometric recognition and attendance system designed for seamless enterprise integration. The core engine is built on a sophisticated Python stack, leveraging InsightFace for high-precision facial analysis and PyTorch for advanced anti-spoofing detection to prevent fraudulent entries via mobile screens or printed photos. Architected with a Flask-based API layer, the system provides real-time, high-FPS inference and has been successfully validated through rigorous field testing by SOF clients. A key technical milestone was the successful integration of this biometric service into a broader Smart Parking Management system, enabling simultaneous driver verification and automated attendance tracking synchronized directly with corporate ERP databases.",
+      "highlights": [
+        "- Advanced Anti-Spoofing Protection: Implemented a robust neural network using PyTorch and Torchvision to distinguish between live subjects and high-resolution spoofs (screens/photos).",
+        "- High-Performance Inference: Optimized real-time recognition using ONNX Runtime and OpenVINO, achieving stable FPS and ultra-low latency for instant biometric verification.",
+        "- Enterprise ERP Integration: Developed a seamless data bridge using Flask-SQLAlchemy to synchronize attendance records and biometric logs with central ERP systems in real-time.",
+        "- High-Speed Biometric Enrollment: Engineered an optimized registration workflow for rapid facial data ingestion without compromising recognition accuracy.",
+        "- Scalable Microservice Architecture: Successfully decoupled the recognition engine as a standalone service, allowing for easy integration into existing enterprise ecosystems like the SOF Parking suite.",
+        "- Tech Stack: Flask, InsightFace (Buffalo_L), ONNX Runtime OpenVINO, PyTorch, OpenCV, NumPy, Pillow."
+      ],
+      "startDate": "2025-01",
+      "endDate": "2026-03",
+      "url": "https://ngocchung.dev/project/facial-recognition-ai"
+    },
+    {
+      "name": "Enterprise Chatbot Management & Knowledge Orchestrator",
+      "description": "Architected a centralized management platform for corporate chatbots, designed to streamline the deployment of sector-specific AI assistants. This platform empowers the company to generate and manage secure chat tokens for different business domains while ensuring that all responses strictly adhere to pre-configured knowledge bases and business rules. The system bridges the gap between raw data and conversational AI by connecting directly to the corporate ERP, fetching real-time data to provide accurate, context-aware answers. To support internal scalability, I implemented an automated documentation engine that generates JSON schema and developer guides, significantly reducing the integration time for frontend developers.",
+      "highlights": [
+        "- Dynamic Token & Sector Management: Developed a multi-tenant management interface to create and configure independent chatbot instances for various company departments.",
+        "- ERP-Driven Intelligence: Integrated a secure data extraction layer to feed real-time corporate information from MySQL databases into the chatbot's knowledge engine.",
+        "- Automated Developer Tooling: Engineered a script to auto-generate comprehensive JSON documentation, enabling rapid API integration for technical teams.",
+        "- Controlled Response Logic: Implemented a strict rule-based framework to ensure chatbot interactions remain within professional boundaries and utilize verified company knowledge.",
+        "- Full-Stack Efficiency: Leveraged a high-performance combination of React for the administrative dashboard and PHP for robust backend logic and API handling.",
+        "- Tech Stack: React, PHP, MySQL, RESTful API, JSON Documentation Engine."
+      ],
+      "startDate": "2026-01",
+      "endDate": "2026-02",
+      "url": "https://ngocchung.dev/project/chatbot-manager"
+    }
+  ]
+}

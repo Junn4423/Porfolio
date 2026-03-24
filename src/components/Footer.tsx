@@ -18,6 +18,22 @@ function LinkedinIcon({ className }: { className?: string }) {
   );
 }
 
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+    </svg>
+  );
+}
+
+function ZaloIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 14.163c-.18.328-.543.637-.96.775-.18.06-.408.09-.66.09-.36 0-.783-.078-1.26-.24a8.7 8.7 0 0 1-1.14-.48 12.3 12.3 0 0 1-1.86-1.2 12.3 12.3 0 0 1-1.2-1.14c-.18-.2-.348-.39-.48-.57a8.7 8.7 0 0 1-.48-1.14c-.162-.477-.24-.9-.24-1.26 0-.252.03-.48.09-.66.138-.417.447-.78.775-.96A1.8 1.8 0 0 1 11.1 7.2c.12 0 .24.018.348.054.228.075.42.24.54.453l.66 1.14c.12.21.12.468 0 .678l-.42.72a.3.3 0 0 0 0 .312c.18.33.45.69.81 1.05.36.36.72.63 1.05.81a.3.3 0 0 0 .312 0l.72-.42c.21-.12.468-.12.678 0l1.14.66c.213.12.378.312.453.54.036.108.054.228.054.348a1.8 1.8 0 0 1-.078.618z" />
+    </svg>
+  );
+}
+
 export default function Footer() {
   const { personal } = data;
 
@@ -57,6 +73,14 @@ export default function Footer() {
                   {item}
                 </a>
               ))}
+              <a
+                href="/cv/cv-luong-ngoc-chung-english.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
+              >
+                Download CV
+              </a>
             </nav>
           </div>
 
@@ -100,6 +124,24 @@ export default function Footer() {
                 >
                   <LinkedinIcon className="w-5 h-5" />
                 </a>
+                <a
+                  href="https://www.facebook.com/junloun4423/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
+                  aria-label="Facebook"
+                >
+                  <FacebookIcon className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://zalo.me/0707038113"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors"
+                  aria-label="Zalo"
+                >
+                  <ZaloIcon className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </div>
@@ -108,7 +150,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800 text-center">
           <p className="text-xs text-neutral-400 dark:text-neutral-600">
-            &copy; {new Date().getFullYear()} Luong Ngoc Chung. Built with Next.js & Tailwind CSS.
+            &copy; {new Date().getFullYear()} Luong Ngoc Chung.
           </p>
         </div>
       </div>
