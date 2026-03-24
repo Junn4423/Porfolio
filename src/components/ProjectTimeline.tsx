@@ -244,22 +244,17 @@ function PeekPopup({
 
 function PeekThumb({ src, alt }: { src: string; alt: string }) {
   const [err, setErr] = useState(false);
+  if (err) return null;
   return (
     <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
-      {err ? (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-[10px] text-neutral-400 italic">No image</span>
-        </div>
-      ) : (
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          className="object-cover"
-          sizes="200px"
-          onError={() => setErr(true)}
-        />
-      )}
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-cover"
+        sizes="200px"
+        onError={() => setErr(true)}
+      />
     </div>
   );
 }
@@ -384,14 +379,8 @@ function CardSide({
       <Link href={`/project/${project.slug}`} className="group block">
         <div className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden transition-all duration-500 hover:border-emerald-300 dark:hover:border-emerald-700 hover:shadow-xl hover:shadow-emerald-900/5 dark:hover:shadow-emerald-400/5 hover:-translate-y-1">
           {/* Image */}
-          <div className="relative aspect-[16/9] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
-            {imgError ? (
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-xs text-neutral-400 dark:text-neutral-500 text-center px-4 italic">
-                  Hình ảnh sẽ được cập nhật sớm
-                </p>
-              </div>
-            ) : (
+          {!imgError && (
+            <div className="relative aspect-[16/9] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
               <Image
                 src={`/projects/${project.slug}/image1.jpg`}
                 alt={project.title}
@@ -400,9 +389,9 @@ function CardSide({
                 sizes="(max-width: 768px) 100vw, 50vw"
                 onError={() => setImgError(true)}
               />
-            )}
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 to-emerald-900/0 group-hover:from-emerald-500/10 group-hover:to-emerald-900/20 transition-all duration-500" />
-          </div>
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 to-emerald-900/0 group-hover:from-emerald-500/10 group-hover:to-emerald-900/20 transition-all duration-500" />
+            </div>
+          )}
 
           {/* Content */}
           <div className="p-5">

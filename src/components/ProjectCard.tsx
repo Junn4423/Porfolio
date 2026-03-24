@@ -36,14 +36,8 @@ export default function ProjectCard({
       <Link href={`/project/${slug}`} className="group block">
         <div className="relative overflow-hidden rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 transition-all duration-500 hover:border-emerald-300 dark:hover:border-emerald-700 hover:shadow-2xl hover:shadow-emerald-900/5 dark:hover:shadow-emerald-400/5">
           {/* Image */}
-          <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
-            {imgError ? (
-              <div className="absolute inset-0 flex items-center justify-center bg-neutral-100 dark:bg-neutral-800">
-                <p className="text-xs text-neutral-400 dark:text-neutral-500 text-center px-4 italic">
-                  Hình ảnh này sẽ được cập nhật sớm
-                </p>
-              </div>
-            ) : (
+          {!imgError && (
+            <div className="relative aspect-[16/10] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
               <Image
                 src={`/projects/${slug}/image1.jpg`}
                 alt={title}
@@ -52,9 +46,9 @@ export default function ProjectCard({
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 onError={() => setImgError(true)}
               />
-            )}
-            <div className="absolute inset-0 bg-emerald-950/0 group-hover:bg-emerald-950/20 transition-colors duration-500" />
-          </div>
+              <div className="absolute inset-0 bg-emerald-950/0 group-hover:bg-emerald-950/20 transition-colors duration-500" />
+            </div>
+          )}
 
           {/* Content */}
           <div className="p-6">

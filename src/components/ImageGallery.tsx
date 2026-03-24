@@ -21,32 +21,23 @@ function GalleryImage({
 }) {
   const [error, setError] = useState(false);
 
+  if (error) return null;
   return (
     <div
       className="group relative aspect-[16/10] rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 cursor-pointer border border-neutral-200 dark:border-neutral-700 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors"
-      onClick={!error ? onClick : undefined}
+      onClick={onClick}
     >
-      {error ? (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <p className="text-xs text-neutral-400 dark:text-neutral-500 text-center px-4 italic">
-            Hình ảnh này sẽ được cập nhật sớm
-          </p>
-        </div>
-      ) : (
-        <>
-          <Image
-            src={src}
-            alt={alt}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            onError={() => setError(true)}
-          />
-          <div className="absolute inset-0 bg-emerald-950/0 group-hover:bg-emerald-950/30 transition-all duration-300 flex items-center justify-center">
-            <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </div>
-        </>
-      )}
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        onError={() => setError(true)}
+      />
+      <div className="absolute inset-0 bg-emerald-950/0 group-hover:bg-emerald-950/30 transition-all duration-300 flex items-center justify-center">
+        <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
     </div>
   );
 }
