@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { motion } from "framer-motion";
-import { ExternalLink, Monitor } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ExternalLink, Monitor, ChevronLeft, ChevronRight } from "lucide-react";
 
 interface WebsitePreview {
   name: string;
@@ -13,6 +13,7 @@ interface WebsitePreview {
 
 interface WebsiteShowcaseProps {
   websites: WebsitePreview[];
+  itemsPerPage?: number;
 }
 
 /** Derive the local PNG path from the website URL. */
@@ -27,12 +28,64 @@ function getImagePath(url: string): string {
 
 const SCROLL_SPEED = 250; // px per second
 
-export default function WebsiteShowcase({ websites }: WebsiteShowcaseProps) {
+export default function WebsiteShowcase({ websites, itemsPerPage = 6 }: WebsiteShowcaseProps) {
+  const [currentPage, setCurrentPage] = useState(0);
+  const totalPages = Math.ceil(websites.length / itemsPerPage);
+  const paginatedSites = websites.slice(
+    currentPage * itemsPerPage,
+    (currentPage + 1) * itemsPerPage
+  );
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {websites.map((site, index) => (
-        <WebsiteCard key={site.url} site={site} index={index} />
-      ))}
+    <div>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentPage}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -12 }}
+          transition={{ duration: 0.3 }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          {paginatedSites.map((site, index) => (
+            <WebsiteCard key={site.url} site={site} index={index} />
+          ))}
+        </motion.div>
+      </AnimatePresence>
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-3 mt-8">
+          <button
+            onClick={() => setCurrentPage((p) => Math.max(0, p - 1))}
+            disabled={currentPage === 0}
+            className="p-2 rounded-lg border border-neutral-200 dark:border-neutral-800 text-neutral-500 dark:text-neutral-400 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+
+          {Array.from({ length: totalPages }, (_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentPage(i)}
+              className={`w-8 h-8 rounded-lg text-sm font-medium transition-colors ${
+                i === currentPage
+                  ? "bg-emerald-900 dark:bg-emerald-600 text-white"
+                  : "border border-neutral-200 dark:border-neutral-800 text-neutral-500 dark:text-neutral-400 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400"
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
+
+          <button
+            onClick={() => setCurrentPage((p) => Math.min(totalPages - 1, p + 1))}
+            disabled={currentPage === totalPages - 1}
+            className="p-2 rounded-lg border border-neutral-200 dark:border-neutral-800 text-neutral-500 dark:text-neutral-400 hover:border-emerald-300 dark:hover:border-emerald-700 hover:text-emerald-900 dark:hover:text-emerald-400 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }

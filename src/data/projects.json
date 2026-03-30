@@ -128,7 +128,12 @@
         { "name": "Ecolive Beauty", "url": "https://ecolive.covasol.io.vn/", "category": "Beauty & Cosmetics" },
         { "name": "Course Platform", "url": "https://course.covasol.io.vn/", "category": "Education & Courses" },
         { "name": "Cleaning Services", "url": "https://clean.covasol.io.vn/", "category": "Home Services" },
-        { "name": "Gaming Gear", "url": "https://gear.covasol.io.vn/", "category": "Gaming & Gear" }
+        { "name": "Gaming Gear", "url": "https://gear.covasol.io.vn/", "category": "Gaming & Gear" },
+        { "name": "Leora Atelier", "url": "https://leoraateliter.covasol.io.vn/", "category": "Luxury & Brand", "image": "/projects/landing-page-collection/leoraateliter-covasol-io-vn_.png" },
+        { "name": "Event Landing", "url": "https://eventlanding.covasol.io.vn/", "category": "Events & Conferences", "image": "/projects/landing-page-collection/eventlanding-covasol-io-vn_.png" },
+        { "name": "Homestay", "url": "https://homestay.covasol.io.vn/", "category": "Travel & Hospitality", "image": "/projects/landing-page-collection/homestay-covasol-io-vn_.png" },
+        { "name": "Foreign Wine", "url": "https://foreign-wine.covasol.io.vn/", "category": "Food & Beverage", "image": "/projects/landing-page-collection/foreign-wine-covasol-io-vn_.png" },
+        { "name": "Restaurant", "url": "https://restaurant.covasol.io.vn/", "category": "Food & Dining", "image": "/projects/landing-page-collection/restaurant-covasol-io-vn_.png" }
       ]
     },
     {

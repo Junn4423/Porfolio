@@ -2,7 +2,7 @@ import data from "@/data/projects.json";
 import ProjectTimeline from "@/components/ProjectTimeline";
 import SkillsConstellation from "@/components/SkillsConstellation";
 import { SectionAnimations } from "./HomeClient";
-import { HeroSection, AboutSection, CTASection } from "./HomeSections";
+import { HeroSection, AboutSection, CTASection, CertificateSection } from "./HomeSections";
 
 export default function Home() {
   const { personal, projects } = data;
@@ -111,6 +111,25 @@ export default function Home() {
           </SectionAnimations>
 
           <SkillsConstellation skills={skills} />
+        </div>
+      </section>
+
+      {/* ========== CERTIFICATE SECTION ========== */}
+      <section id="certificates" className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionAnimations>
+            <div className="text-center max-w-2xl mx-auto mb-16">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
+                Certifications &{" "}
+                <span className="text-emerald-900 dark:text-emerald-400">
+                  Achievements
+                </span>
+              </h2>
+              <div className="mt-4 w-16 h-1 bg-emerald-900 dark:bg-emerald-400 mx-auto rounded-full" />
+            </div>
+          </SectionAnimations>
+
+          <CertificateSection />
         </div>
       </section>
 

@@ -11,6 +11,8 @@ import {
   Building2,
   Mail,
   FileDown,
+  Award,
+  Globe,
 } from "lucide-react";
 
 function GithubIcon({ className }: { className?: string }) {
@@ -322,6 +324,61 @@ export function CTASection({ email, linkedin }: CTASectionProps) {
       >
         Connect on LinkedIn
       </MagneticButton>
+    </div>
+  );
+}
+
+export function CertificateSection() {
+  return (
+    <div className="max-w-3xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+      >
+        <a
+          href="/certificate/EF%20SET%20Certificate.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block"
+        >
+          <div className="relative overflow-hidden rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-8 sm:p-10 hover:border-emerald-300 dark:hover:border-emerald-700 transition-all duration-500 hover:shadow-2xl hover:shadow-emerald-900/10 dark:hover:shadow-emerald-400/5">
+            {/* Decorative gradient blob */}
+            <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-emerald-100/50 dark:bg-emerald-900/20 blur-3xl pointer-events-none" />
+
+            <div className="relative flex flex-col sm:flex-row items-center gap-8">
+              {/* Icon */}
+              <div className="flex-shrink-0">
+                <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-emerald-50 to-emerald-100 dark:from-emerald-950/50 dark:to-emerald-900/30 border border-emerald-200 dark:border-emerald-800 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                  <Globe className="w-10 h-10 text-emerald-700 dark:text-emerald-400" />
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="flex-1 text-center sm:text-left">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 dark:border-emerald-800 mb-3">
+                  <Award className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                  <span className="text-xs font-medium text-emerald-700 dark:text-emerald-300">
+                    English Proficiency
+                  </span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100 group-hover:text-emerald-900 dark:group-hover:text-emerald-400 transition-colors">
+                  EF SET English Certificate
+                </h3>
+                <p className="mt-2 text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed">
+                  Certified English proficiency level assessed by EF Standard English Test — an internationally recognized benchmark for non-native English speakers.
+                </p>
+
+                <div className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-emerald-700 dark:text-emerald-400 opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-300">
+                  <FileDown className="w-4 h-4" />
+                  View Certificate
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </motion.div>
     </div>
   );
 }
